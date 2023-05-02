@@ -1,4 +1,8 @@
 # create, read, update, delete O(l) where l is the length.
+"""A Trie is a special data structure used to store strings that can be visualized like a graph. It consists of nodes
+and edges. Each node consists of at max 26 children and edges connect each parent node to its children. """
+
+
 class Node:
     def __init__(self):
         self.children = {}

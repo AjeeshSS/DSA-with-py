@@ -1,7 +1,9 @@
-# for BST lookup(), insert(), remove() : complexity = O(log n)
+# for BST lookup(), insert(), remove() : complexity = O(log n) means height of tree (H) (when the tree is balanced)
 # when tree is like a LL then : lookup(),remove() : complexity = O(n)
 #  for insert() = O(1)
 # ie inserting in LL is efficient
+
+# study detail about height of a tree and balanced tree (theory).
 
 class Node:
     def __init__(self, value):

@@ -16,3 +16,4 @@ class Graph:
 my_graph = Graph()
 my_graph.add_vertex('A')
 my_graph.print_graph()
+# complexity of graph is V+E  (sum of vertex and edges)

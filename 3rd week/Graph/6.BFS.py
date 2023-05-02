@@ -67,7 +67,8 @@ my_graph.add_edge('C', 'D')
 my_graph.print_graph()
 print()
 my_graph.bfs('A')
-"""BFS is useful in finding the shortest path in an unweighted graph. In this algorithm, we start at the source 
-vertex and explore all its neighbors first, then move to their neighbors, and so on, until we reach the destination 
-vertex. BFS is guaranteed to find the shortest path if the graph is unweighted. It can also be used to detect if 
-there is a path between two vertices in a graph. """
+"""Using GPS navigation system BFS is used to find neighboring places.BFS is useful in finding the shortest path in 
+an unweighted graph. In this algorithm, we start at the source vertex and explore all its neighbors first, 
+then move to their neighbors, and so on, until we reach the destination vertex. BFS is guaranteed to find the 
+shortest path if the graph is unweighted. It can also be used to detect if there is a path between two vertices in a 
+graph. """

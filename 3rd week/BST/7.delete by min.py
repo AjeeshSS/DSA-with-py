@@ -59,7 +59,7 @@ class BinaryST:
             elif not current_node.right:  # check node has no right child
                 return current_node.left
             # this is the last case which the deletion node has two child
-            min_right_node = self.find_min_node(current_node.right)
+            min_right_node = self.find_min_node(current_node.right)  # find minimum right node.
             current_node.value = min_right_node.value  # change the value to the min value
             current_node.right = self.__delete_node(current_node.right, min_right_node.value)  # delete the min value(duplicate)
         return current_node

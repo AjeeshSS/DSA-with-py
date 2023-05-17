@@ -67,6 +67,9 @@ my_graph.add_edge('C', 'D')
 my_graph.print_graph()
 print()
 my_graph.bfs('A')
+# BFS also has a time complexity of O(V + E), as it visits all vertices and edges in the worst case scenario. In the
+# worst case, where the graph is a complete graph, meaning that each node is connected to all other nodes,
+# the number of edges is m = n*(n-1)/2, and the time complexity of both BFS and DFS is O(n^2).
 """Using GPS navigation system BFS is used to find neighboring places.BFS is useful in finding the shortest path in 
 an unweighted graph. In this algorithm, we start at the source vertex and explore all its neighbors first, 
 then move to their neighbors, and so on, until we reach the destination vertex. BFS is guaranteed to find the 

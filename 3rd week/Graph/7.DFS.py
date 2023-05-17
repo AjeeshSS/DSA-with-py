@@ -52,11 +52,15 @@ my_graph.add_vertex('D')
 my_graph.add_edge('A', 'B')
 my_graph.add_edge('A', 'D')
 my_graph.add_edge('B', 'C')
-my_graph.add_edge('C', 'D')yuh
+my_graph.add_edge('C', 'D')
 
 my_graph.print_graph()
 print()
 my_graph.dfs('A')
+
+# DFS has a time complexity of O(V + E) as it traverses all vertices and edges once in the worst case scenario. In
+# the worst case, where the graph is a complete graph, meaning that each node is connected to all other nodes,
+# the number of edges is m = n*(n-1)/2, and the time complexity of both BFS and DFS is O(n^2).
 """Depth-first search is used in topological sorting, scheduling problems, cycle detection in graphs, and solving 
 puzzles with only one solution, such as a maze or a sudoku puzzle. Other applications involve analyzing networks, 
 for example, testing if a graph is bipartite.DFS is useful in detecting cycles in a graph and in exploring all 

@@ -51,3 +51,6 @@ tree.level_order()
 # these are types of traversal methods.
 # 1. DFS methods: 1.1 preorder,1.2 postorder,1.3 inorder
 # 2. BFS method: level order(BFS is also known as level order).
+"""
+study complexity of BFS  and DFS
+"""

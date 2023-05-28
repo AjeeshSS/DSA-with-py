@@ -24,5 +24,11 @@ min_heap : it is a complete binary tree. root  will have the smallest value . ev
 
 we can also create it by O(n) using heapify method.
 
-#  heap-sort in included inside min and max heap.
-"""
+Heapify Up: Heapify up is used when a new element is added to the heap, typically at the end of the heap. The element
+is then "bubbled up" or "percolated up" to its correct position to satisfy the heap property.
+
+Heapify Down: Heapify down is used when an element is removed or replaced at the root of the heap. The element at the
+root is typically replaced with the last element in the heap, and then it is "pushed down" or "percolated down" to
+its correct position to satisfy the heap property. """
+#  heap-sort is included inside min and max heap.
+

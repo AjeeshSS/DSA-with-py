@@ -52,7 +52,7 @@ class BinaryST:
             # this (means else) case will work when the given value equals the traversal node ,also there are 3 cases
             # the node is a leaf node ,it is a parent with left child or right child.
         else:
-            if not current_node.left and not current_node.right:  # the table has no children
+            if not current_node.left and not current_node.right:  # the tree has no children
                 return None
             if not current_node.left:  # check node has no left child
                 return current_node.right

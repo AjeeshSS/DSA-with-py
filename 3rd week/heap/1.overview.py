@@ -3,6 +3,8 @@
 YouTube channel link to study algorithm: https://youtu.be/HqPJF2L5h9U (Abdul Bari)
 must watch above channel
 
+Heap is implemented using array.
+
 if a node is at index i
     then left child = 2*i+1 (if the array starts with 0th index)
     right child = 2*i+2  () (if the array starts with 0th index)

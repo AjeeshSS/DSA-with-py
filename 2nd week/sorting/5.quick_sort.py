@@ -69,9 +69,10 @@ def quick_sort(my_list):
     return quick_sort_helper(my_list, 0, len(my_list) - 1)
 
 
-# arr = ['a', 's', 'd', 'w', 'e', 'a', 'f', 'a', 'w']
-# print(quick_sort(arr))
-list = [1, 22, 3, 6, 5, 67, 4, 232, 20, 2]
+arr = ['a', 's', 'd', 'w', 'e', 'a', 'f', 'a', 'w']
+print(quick_sort(arr))
+
+list = [4, 6, 1, 7, 3, 2, 5]
 print(quick_sort(list))
 
 # to find  pivot, time comp O(n) + for recursive O(log n) = O(n log n)

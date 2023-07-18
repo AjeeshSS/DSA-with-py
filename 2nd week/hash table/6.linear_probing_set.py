@@ -1,3 +1,8 @@
+"""In linear probing, when a collision occurs (i.e., two keys are hashed to the same location), the next available
+slot in the array is searched sequentially until an empty slot is found. The key-value pair is then inserted into
+that slot."""
+
+
 class HashTable:
     def __init__(self, size=10):
         self.data_map = [None] * size
@@ -24,7 +29,7 @@ class HashTable:
             if self.data_map[i] is None:
                 self.data_map[i] = [[key, value]]
             elif self.data_map[i][0][0] == key:
-                self.data_map[i][0][1] += value
+                self.data_map[i][0][1] += value  # i used + here for adding else it replaces the existing value.
             else:
                 self.data_map[i].append([key, value])
 

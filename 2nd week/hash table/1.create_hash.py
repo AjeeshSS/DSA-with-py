@@ -30,7 +30,7 @@ my_hash_table.print_table()
 """Hash tables are commonly used to implement caching systems. Used in various cryptographic algorithms. 
 Hash tables are used in load balancing algorithms.
 We can use hash tables to store, retrieve, and delete data uniquely based on their unique key. """
-#  types of collition handling methods.
+#  types of collision handling methods.
 # 1. Separate chaining
 # 2. Open addressing -  Linear probing, Quadratic probing, Double hashing
 # 3. Coalesced hashing

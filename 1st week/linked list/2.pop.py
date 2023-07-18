@@ -39,7 +39,7 @@ class Linked_list:
             return None
         temp = self.head
         pre = self.head
-        while (temp.next):
+        while temp.next:
             pre = temp
             temp = temp.next
         self.tail = pre

@@ -33,3 +33,8 @@ print('\n', arr1)
 # bubble ,selection,insertion sort all have O(n^2) time complexity
 # bubble ,selection,insertion sort all have O(1) space complexity
 # only insertion sort is O(n) time complexity if you start with a sorted (or almost sorted array)
+# merge sort, quick sort have O(nlogn) time complexity
+# merge sort have O(n) space complexity
+# quick sort have O(logn) space complexity
+
+

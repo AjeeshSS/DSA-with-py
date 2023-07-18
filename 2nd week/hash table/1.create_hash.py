@@ -2,6 +2,7 @@ class HashTable:
     def __init__(self, size=7):
         self.data_map = [None] * size
 
+    # this is hash function, here I use the custom hash function
     def __hash(self, key):
         my_hash = 0
         for letter in key:
@@ -21,12 +22,15 @@ my_hash_table.print_table()
 # Types of Hash functions::
 
 # Division Method.
+# Multiplication Method.
 # Mid Square Method.
 # Folding Method.
-# Multiplication Method.
 
-# application = encryption - decription, cryptocurrency, cryptography
-#  types of collition
+# application of hashtable = encryption - decription, crypto currency, cryptography
+"""Hash tables are commonly used to implement caching systems. Used in various cryptographic algorithms. 
+Hash tables are used in load balancing algorithms.
+We can use hash tables to store, retrieve, and delete data uniquely based on their unique key. """
+#  types of collition handling methods.
 # 1. Separate chaining
 # 2. Open addressing -  Linear probing, Quadratic probing, Double hashing
 # 3. Coalesced hashing

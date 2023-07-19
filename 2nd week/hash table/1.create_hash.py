@@ -1,3 +1,8 @@
+"""
+A hash table, also known as a hash map, is a data structure that stores key-value pairs. It provides efficient
+retrieval and insertion of data by using a hashing function."""
+
+
 class HashTable:
     def __init__(self, size=7):
         self.data_map = [None] * size
@@ -26,7 +31,7 @@ my_hash_table.print_table()
 # Mid Square Method.
 # Folding Method.
 
-# application of hashtable = encryption - decription, crypto currency, cryptography
+# application of hashtable = encryption - decryption, crypto currency, cryptography
 """Hash tables are commonly used to implement caching systems. Used in various cryptographic algorithms. 
 Hash tables are used in load balancing algorithms.
 We can use hash tables to store, retrieve, and delete data uniquely based on their unique key. """
@@ -36,4 +41,4 @@ We can use hash tables to store, retrieve, and delete data uniquely based on the
 # 3. Coalesced hashing
 #   search pros and cons of hash table
 
-
+"""wost case time complexity = O(1)"""

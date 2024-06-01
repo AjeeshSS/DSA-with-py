@@ -1,4 +1,4 @@
-# contains means simply search for an item
+# contains means search an item in tree.
 
 class Node:
     def __init__(self, value):
@@ -45,8 +45,11 @@ class BinaryST:
 
 tree = BinaryST()
 arr = [47, 21, 76, 18, 27, 52, 82]
-for i in arr:
-    tree.insert(i)
+# for i in arr:
+#     tree.insert(i)
+
+[tree.insert(i) for i in arr]
+
 
 print(tree.contains(27))
 print(tree.contains(17))

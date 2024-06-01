@@ -31,8 +31,9 @@ class BinaryST:
                     return True
                 temp = temp.right
 
-    # in normal case we don't need to pass a node to a function, but in this case we are
-    #  passing a node, so we use '__' (double underscore) .user can't call this directly.
+    ''' in normal case we don't need to pass a node to a function, but in this case we are
+      passing a node, so we use '__' (double underscore) .user can't call this directly/ no
+      need to call directly.'''
     def __r_contains(self, current_node, value):
         if current_node is None:
             return False

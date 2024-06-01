@@ -25,6 +25,14 @@ class HashTable:
                 if self.data_map[index][i][0] == key:
                     return self.data_map[index][i][1]
         return None
+    
+    def getall_keys(self):
+        all_keys = []
+        for i in range(len(self.data_map)):
+            if self.data_map[i] is not None:
+                for j in range(len(self.data_map[i])):
+                    all_keys.append(self.data_map[i][j][0])
+        return all_keys
 
 
 my_hash_table = HashTable()
@@ -37,3 +45,8 @@ my_hash_table.set_item('nails', 1034)
 my_hash_table.print_table()
 
 print('\n', my_hash_table.get_item('nails'))
+print('\n', my_hash_table.getall_keys())
+
+'''
+for set an item and look for an item is O(1)
+'''

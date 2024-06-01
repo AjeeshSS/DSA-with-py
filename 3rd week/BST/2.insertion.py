@@ -16,7 +16,7 @@ class BinaryST:
             return True
         temp = self.root
         while True:
-            if new_node.value == temp.value:
+            if new_node.value == temp.value:  # value (node) should not be duplicate.
                 return False
             if new_node.value < temp.value:
                 if temp.left is None:

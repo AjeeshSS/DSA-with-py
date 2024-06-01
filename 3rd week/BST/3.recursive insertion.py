@@ -9,8 +9,8 @@ class BinaryST:
     def __init__(self):
         self.root = None
 
-    # in normal case we don't need to pass a node to a function, but in this case we are
-    #  passing a node, so we use '__'
+    '''in normal case we don't need to pass a node to a function, but in this case we are
+    passing a node, so we use '__' (double underscore)'''
     def __r_insert(self, current_node, value):
         if current_node is None:
             return Node(value)
@@ -21,7 +21,7 @@ class BinaryST:
         return current_node
 
     def r_insert(self, value):
-        if self.root is None:
+        if self.root is None:   # addition works only when tree is not empty.
             self.root = Node(value)
         self.__r_insert(self.root, value)
 

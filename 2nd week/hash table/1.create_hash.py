@@ -4,7 +4,7 @@ retrieval and insertion of data by using a hashing function."""
 
 
 class HashTable:
-    def __init__(self, size=7):
+    def __init__(self, size=7):  # size of the hash table (0 to 6 = 7). 
         self.data_map = [None] * size
 
     # this is hash function, here I use the custom hash function
@@ -41,4 +41,4 @@ We can use hash tables to store, retrieve, and delete data uniquely based on the
 # 3. Coalesced hashing
 #   search pros and cons of hash table
 
-"""wost case time complexity = O(1)"""
+"""worst case time complexity = O(1)"""

@@ -21,7 +21,7 @@ tree = BinaryST()
 print(tree.root)
 # a binary tree with maximum number of nodes called full binary tree.(each node should be filled with 2 or none)
 # a binary tree with a height contain all the nodes then that is perfect tree.
-#  if there are no missing element it will be complete tree.
+#  if there are no missing element it will be complete tree.(tree should be filled from left to right)
 # first node is root , 2nd node is children, last node with no children called leaf node.
 # binary search tree the node greater than root/parent will align to right and smaller than root/parent will align to left.
 # height of a BST is 2^h-1

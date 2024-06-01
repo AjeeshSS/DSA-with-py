@@ -13,7 +13,7 @@ if a node is at index i
 a binary tree with maximum number of nodes called full binary tree.
  if there are no missing element it will be complete tree.
 
-heap is a complete binary tree. teo types - max amd  min heap.
+heap is a complete binary tree. two types - max amd  min heap.
 max_heap : it is a complete binary tree. root  will have the largest value. every
             parent node has a value greater than its child node.(duplicates allowed)
             complexity for creating and delete all :  O(n log n).

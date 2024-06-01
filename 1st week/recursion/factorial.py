@@ -8,3 +8,4 @@ def factorial(n):
 
 
 print(factorial(5))
+"""A function call by itself, until it doesn't is called recursion."""
